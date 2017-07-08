@@ -61,7 +61,6 @@ float calc_block_reward (float K_reward, float R_reward)
 float calc_total_coins(float genesis_block_reward, float K_per_block, float R_per_block, int total_blocks, float blocks_per_year)
 {
     //function to calculate total coins
-    //K references this function to calculate rising element of block reward
     float total_coins = genesis_block_reward;
     float block_reward = genesis_block_reward;
     float K_reward = 0;
