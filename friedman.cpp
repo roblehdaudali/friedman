@@ -103,10 +103,10 @@ int main()
     float minutes_per_block = 2;
     // K is the percentage rate used to inflate the block in the friedman stage
     // K is positive
-    float K = 0.03;
+    float K = 0.032;
     // R is the percentage rate used to reduce the blocks in the transition phase
     // R is negative
-    float R = -0.25;
+    float R = -0.24;
 
     float blocks_per_hour = 60 / minutes_per_block;
     float blocks_per_day = blocks_per_hour * 24;
