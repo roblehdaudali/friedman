@@ -73,7 +73,7 @@ float calc_total_coins(float genesis_block_reward, float K_per_block, float R_pe
             block_reward = calc_block_reward(K_reward, R_reward);
             total_coins += block_reward;
 
-        int x = blocks_per_year;
+        int x = blocks_per_year/4;
 
         if (i%x == 0)
             {
